@@ -5,7 +5,7 @@ import App from './App.vue'
 import MainView from './views/main.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  //history: createWebHistory(),
   routes: [
     { path: '/', component: MainView }
   ]
